@@ -1,0 +1,20 @@
+{
+  "name": "sd-sockets-2021-2",
+  "version": "0.0.1",
+  "description": "Implementação do mecanismo de comunicação com Sockets de rede em Node.JS",
+  "main": "server.js",
+  "repository": "https://github.com/rafaelfl/sd-sockets-2021-2.git",
+  "author": "Rafael Fernandes Lopes <rafael.fernandes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
